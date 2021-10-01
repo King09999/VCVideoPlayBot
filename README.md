@@ -1,9 +1,4 @@
 # Telegram VCVideoPlayBot
-
-- An Telegram Bot By [@ZauteKm](https://t.me/ZauteKm) To Stream Videos in Telegram Voice Chat.
-
----
-
 ## NOTE:
 
 - Make sure you have started a VoiceChat in your Group/Channel before deploying.
