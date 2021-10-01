@@ -55,7 +55,7 @@
 <details><summary><b>Deploy to Heroku</b></summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/ZauteKm/vcVideoPlayer">
+<a href="https://heroku.com/deploy?template=https://github.com/King09999/vcVideoPlayBot">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
