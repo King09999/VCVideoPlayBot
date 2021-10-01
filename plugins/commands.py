@@ -29,8 +29,8 @@ admin_filter=filters.create(is_admin)
 async def start(client, message):
     buttons = [
         [
-            InlineKeyboardButton('📢 Channel', url='https://t.me/ZauteKm'),
-            InlineKeyboardButton('Source 🔥', url='https://github.com/ZauteKm/vcVideoPlayer')
+            InlineKeyboardButton('📢 Channel', url='https://t.me/manish_mod'),
+            InlineKeyboardButton('Owner 🔥', url='https://t.me/Loltage')
         ],
         [
             InlineKeyboardButton('👨🏼‍🦯 Help', callback_data='help'),
@@ -45,8 +45,8 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-            InlineKeyboardButton('📢 Channel', url='https://t.me/tgbotsproject'),
-            InlineKeyboardButton('Source 🔥', url='https://github.com/ZauteKm/vcVideoPlayer'),
+            InlineKeyboardButton('📢 Channel', url='https://t.me/manish_mod'),
+            InlineKeyboardButton('Owner🔥', url='https://t.me/Loltage'),
         ]
         ]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -60,12 +60,12 @@ async def show_help(client, message):
 async def repo_(client, message):
     buttons = [
         [
-            InlineKeyboardButton('🔥 Repository', url='https://github.com/ZauteKm/vcVideoPlayer'),
-            InlineKeyboardButton('Channel 📢', url='https://t.me/ZauteKm'),
+            InlineKeyboardButton('🔥 channel', url='https://t.me/manish_mod'),
+            InlineKeyboardButton('Owner 📢', url='https://t.me/Loltage'),
             
         ],
     ]
-    await message.reply("<b>The source code of this bot is public and can be found at <a href=https://github.com/ZauteKm/VCVideoPlayBot>VCVideoPlayBot.</a>\nYou can deploy your own bot and use in your group.\n\nFeel free to star☀️ the repo if you liked it 🙃.</b>", reply_markup=InlineKeyboardMarkup(buttons))
+    await message.reply("<b>The Bot make by - Manish<a href=https://t.me/Loltage>Manish.</a>\nYou can deploy your own bot and use in your group.\n\nFeel free to contact 🙃.</b>", reply_markup=InlineKeyboardMarkup(buttons))
 
 @Client.on_message(filters.command(['restart', 'update', f"restart@{Config.BOT_USERNAME}", f"update@{Config.BOT_USERNAME}"]) & admin_filter)
 async def update_handler(client, message):
