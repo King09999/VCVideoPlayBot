@@ -1,7 +1,7 @@
 {
-    "name": "VCPlayerBot",
+    "name": "manishvideoBot",
     "description": "Telegram bot to stream video in telegram VC",
-    "repository": "https://github.com/ZauteKm/vcVideoPlayer",
+    "repository": "https://github.com/King09999/vcVideoPlayBot",
     "stack": "container",
     "keywords": [
       "telegram",
@@ -55,7 +55,7 @@
       },
       "REPLY_MESSAGE": {
         "description": "A reply message to those who message the USER account in PM. Make it blank if you do not need this feature.",
-        "value": "Helo Ser, Iam a bot to play music, not havimg time to chat with you.",
+        "value": "Helo Sir, Iam a bot to play music, not havimg time to chat with you Go and text your ex Gf.",
         "required": false
       }
     },
